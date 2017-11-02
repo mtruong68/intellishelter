@@ -1,6 +1,6 @@
 <html>
 <header>
-	<title>Music Player</title>
+	<title>Manage Shelter</title>
 	<link rel="stylesheet" type="text/css" href="css/ipod.css"/> 
 	<link rel="stylesheet" type="text/css" href="css/manager.css"/>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -9,13 +9,17 @@
 <body>
 	<div id="screen">
 		<div id="contents">
-			<div id="head_bar"></div>
-			<div id="shelter_name">YWCA Evanston</div>
-			<a href="manager_update.html">
+			<div id="head_bar">
+				<a href="login_page.html">
+					<button class="button"><i class="material-icons">arrow_back</i></button>
+				</a>
+			</div>
+			<div id="top_text">YWCA Evanston</div>
+			<a href="manager_update.html" id="update_link">
 				<button id="update_button" class="button">Update Shelter Info</button>
 			</a>
 			<form>
-				<textarea id="update_info" name="update_text" placeholder="Type your shelter notification here..."></textarea>
+				<textarea id="update_info" name="update_text" placeholder="Type your shelter notification here. &#10;&#10;Every individual subscribed to your shelter will receive the notification."></textarea>
 				<input id="submit_button" type="submit" class="button" value="Send Shelter Notification">
 			</form>
 		</div>

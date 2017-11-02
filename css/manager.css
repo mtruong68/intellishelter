@@ -9,6 +9,10 @@
 	cursor: pointer;
 }
 
+textarea{
+	resize: none;
+}
+
 #contents{
 	width: 300px;
 	height: 500px;
@@ -18,7 +22,7 @@
     margin-bottom: auto;
 }
 
-#shelter_name{
+#top_text{
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 20px;
@@ -27,20 +31,25 @@
 #update_button{
 	width: 220px;
 	height: 80px;
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: 40px;
 	font-size: 16px;
 }
 
-#update_info {
-	width: 300px;
-	height: 150px;
+#update_link{
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 40px;
+}
 
+#update_info {
+	width: 280px;
+	height: 150px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 5px
 }
 
 #submit_button {
-	margin-left: 50%;
+	margin-left: 10px;
 	margin-top: 5px; 
 	height: 30px;
 	width: 150px;
@@ -52,3 +61,15 @@
 	background-color: rgb(144, 169, 178);
 
 }
+
+.update_form {
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
+

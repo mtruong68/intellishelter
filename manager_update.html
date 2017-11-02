@@ -1,15 +1,33 @@
 <html>
 <header>
-  <title>Music Player</title>
-  <link rel="stylesheet" type="text/css" href="css/ipod.css"/>
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-  rel="stylesheet">
+	<title>Shelter Overview</title>
+	<link rel="stylesheet" type="text/css" href="css/ipod.css"/>
+	<link rel="stylesheet" type="text/css" href="css/manager.css"/>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
 </header>
 <body>
-  <div id="screen">
-
-  </div>
-  <script src="js/ipod.js"></script>
+	<div id="screen">
+		<div id="contents">
+			<div id="head_bar">
+				<a href="manager_overview.html">
+					<button class="button"><i class="material-icons">arrow_back</i></button>
+				</a>
+			</div>
+			<div id="top_text">Edit Your Shelter</div>
+			<form>
+				<div class="update_form">Name:</div>
+				<input type="text" class="update_form" name="name" value="YWCA Evanston">
+				<div class="update_form">Capacity:</div>
+				<input class="update_form" type="text" name="capacity" value="0">
+				<div class="update_form">Max Capacity:</div>
+				<input class="update_form" type="text" name="max_capacity" value="250">
+				<div class="update_form">Additional Information:</div>
+				<textarea id="update_info">The YWCA is pet friendly!</textarea>
+				<input id="submit_button" class="button update_form" type="submit" name="update_button" value="Update">
+			</form>
+		</div>
+	</div>
 </body>
 </html>
 <!--
