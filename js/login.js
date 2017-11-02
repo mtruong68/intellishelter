@@ -1,7 +1,11 @@
+var incorrect_pw = document.getElementById("incorrect_pw");
+var emailinput = document.getElementById("text-input-e").value;
+var pwinput = document.getElementById("text-input-p").value;
 
-
-function submitlogin(){
-	window.location.href = "manager_overview.html";
-	//code that makes incorrect_pw visible if incorrect email
-	//or password is input
+function submitlogin() {
+	//if (emailinput == "shelter" && pwinput == "password"){
+		window.location.href = "manager_overview.html";
+	//} else {
+	//	incorrect_pw.style.visibility = "visible";
+	//}
 }

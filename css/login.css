@@ -5,7 +5,11 @@
 	margin: auto;
 }
 
-#text-input{
+#text-input-e{
+	margin: 5px 0px 10px 0px;
+}
+
+#text-input-p{
 	margin: 5px 0px 10px 0px;
 }
 
