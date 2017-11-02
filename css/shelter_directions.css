@@ -3,12 +3,49 @@
 	margin-bottom: 15px;
 }
 
+#directionheader {
+	width: 300px;
+	height: 30px;
+	background-color: rgb(144, 169, 178);
+
+}
+
+#directionbox{
+	font-size: 16px;
+	font-weight: bold;
+	border: 1px solid #a0a6af;
+	margin: 5px 0px 5px 25px;
+	padding: 3px 0px 3px 5px;
+	max-width: 240px;
+	border-radius: 4px;
+}
+
+.button {
+	background-color: #dae2ef;
+	border: none;
+	max-width: 45px;
+	height: 24px;
+	margin: 3px 0px 0px 3px;
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
 #directiontable{
-	font-size: 15px;
+	font-size: 14px;
 	width: 90%;
 	border-collapse: collapse;
+	border-top: 1px solid #ced5e0;
+	margin-left: 15px;
 }
 
 td {
-	border-bottom: 1px solid gray;
+	border-bottom: 1px solid #ced5e0;
+	padding: 2px 0px 2px 8px;
+}
+
+#directiontable .right {
+	text-align: right;
+	padding-right: 10px;
 }
