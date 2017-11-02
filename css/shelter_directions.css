@@ -1,0 +1,14 @@
+#map {
+	max-width: 250px;
+	margin-bottom: 15px;
+}
+
+#directiontable{
+	font-size: 15px;
+	width: 90%;
+	border-collapse: collapse;
+}
+
+td {
+	border-bottom: 1px solid gray;
+}

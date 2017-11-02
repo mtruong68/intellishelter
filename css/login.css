@@ -14,7 +14,15 @@
 	font-size: 24px;
 }
 
+#incorrect_pw{
+	color: red;
+	font-size: 14px;
+	max-width: 235px;
+	margin: auto;
+	visibility: hidden;
+}
+
+
 #button {
-	margin-top: 20px;
 	float:right;
 }
