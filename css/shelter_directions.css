@@ -1,6 +1,6 @@
 #map {
 	max-width: 250px;
-	margin-bottom: 15px;
+	margin: 0px 0px 15px 25px;
 }
 
 #directionheader {
@@ -20,12 +20,17 @@
 	border-radius: 4px;
 }
 
+.detail {
+	font-weight: bold;
+}
+
 .button {
 	background-color: #dae2ef;
 	border: none;
 	max-width: 45px;
 	height: 24px;
 	margin: 3px 0px 0px 3px;
+	border-radius: 15px;
 }
 
 .button:hover {
