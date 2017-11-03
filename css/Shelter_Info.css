@@ -12,6 +12,37 @@ body {
 	margin: 105px 23px;
 }
 
-.back_button {
-	background-color: ;
+#head-bar {
+	width: 300px;
+	height: 30px;
+	background-color: rgb(144, 169, 178);
+}
+
+#body {
+	width: 100%;
+	height: 100%;
+}
+
+#info_box {
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 300px;
+	width: auto;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+.map_screen {
+	width: 280px;
+	height: auto;
+	margin: 10px;
+}
+
+.back-button {
+	background-color: rgb(33, 156, 204);
+	border: none;
+}
+
+.back-button:hover {
+	cursor: pointer;
 }
