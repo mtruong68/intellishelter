@@ -3,6 +3,11 @@ body {
 	background-repeat: no-repeat;
 	font-family: Avenir, sans-serif;
 }
+
+#screen {
+	background-color: rgb(173, 216, 250)
+}
+
 #head-bar {
 	width: 300px;
 	height: 30px;
@@ -34,12 +39,14 @@ body {
 
 	border-style: none;
 	position: relative;
-	top: 2px;
+	bottom: 20px;
+
+	background-color: rgb(173, 216, 250)
 }
 
 #Address {
 	position: relative;
-	bottom: 20px;
+	bottom: 35px;
 
 	padding-bottom: 23px;
 	padding-top: 7px;
@@ -47,24 +54,24 @@ body {
 
 #Phone-Number {
 	position: relative;
-	bottom: 35px;
+	bottom: 51px;
 }
 
 #Capacity {
 	position: relative;
-	bottom: 50px;
+	bottom: 67px;
 }
 
 #Additional-Info {
 	position: relative;
-	bottom: 65px;
+	bottom: 83px;
 	padding-bottom: 100px;
 }
 
 #addr {
 	position: relative;
 	right: 15px;
-	bottom: 280px;
+	bottom: 295px;
 
 	font-size: 18px;
 }
@@ -72,7 +79,7 @@ body {
 #addr2 {
 	position: relative;
 	right: 15px;
-	bottom: 300px;
+	bottom: 315px;
 
 	font-size: 14px;
 }
@@ -80,38 +87,61 @@ body {
 #phonenum {
 	position: relative;
 	right: 15px;
-	bottom: 307px;
+	bottom: 320px;
 }
 
 #cap {
 	position: relative;
 	right: 15px;
-	bottom: 315px;
+	bottom: 327px;
 }
 
 #addinfo {
 	text-align: left;
 	font-size: 14px;
 
-	padding-left: 12px;
+	padding-left: 20px;
 
 	position: relative;
-	bottom: 300px;
+	bottom: 315px;
 }
-.button {
+
+#announcement1 {
+	position: relative;
+	bottom: 294px;
+}
+
+#announcement2 {
+	position: relative;
+	bottom: 312px;
+}
+
+#announcement3 {
+	position: relative;
+	bottom: 330px;
+}
+
+#notifications_header {
+	text-align: center;
+	position: relative;
+	bottom: 272px;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+.back-button {
 	background-color: rgb(33, 156, 204);
 	border: none;
 }
 
-.button:hover {
+.back-button:hover {
 	cursor: pointer;
 }
 
 .Shelter-Information-Title {
-
 	border-style: solid;
 	border-color: black;
-	border-width: 1px;
+	border-width: 2px;
 
 	margin-bottom: 14px;
 	margin-left: 5px;
@@ -122,9 +152,61 @@ body {
 	padding-left: 5px;
 
 	font-size: 14px;
+
+	position: relative;
+
+	background-color: white;
 }
 
 .Shelter-Information {
 	text-align: right;
 }
 
+.announcement {
+	text-align: left;
+	margin-left: 5px;
+	margin-right: 5px;
+
+	padding-left: 5px;
+
+	border-style: solid;
+	border-width: 2px;
+
+	background-color: white;
+}
+
+.directions_button {
+	width: 290px;
+	height: 50px;
+	background-color: rgb(33, 156, 204);
+	margin-left: 5px;
+	border: none;
+
+	position: relative;
+	bottom: 250px;
+
+	font-weight: bold;
+	font-size: 16px;
+
+	border-radius: 10px;
+}
+
+.directions_button:hover {
+	cursor: pointer;
+}
+
+.notifications_button {
+	width: 290px;
+	height: 50px;
+	background-color: rgb(33, 156, 204);
+	margin-left: 5px;
+	border: none;
+
+	position: relative;
+	bottom: 343px;
+
+	font-weight: bold;
+	font-size: 16px;
+
+	border-radius: 10px;	
+}
