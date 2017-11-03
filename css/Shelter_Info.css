@@ -1,6 +1,3 @@
-/*
-	Global classes
-					*/
 body {
 	background-image: url("../images/iphoneOL.jpg");
 	background-repeat: no-repeat;
@@ -10,8 +7,11 @@ body {
 #screen {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	height: 530px;
 	width: 300px;
 	margin: 105px 23px;
+}
+
+.back_button {
+	background-color: ;
 }
