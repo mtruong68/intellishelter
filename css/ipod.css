@@ -9,7 +9,7 @@ body {
 
 #screen {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: center;
 	height: 530px;
 	width: 300px;
