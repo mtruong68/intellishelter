@@ -10,41 +10,63 @@
 
 <body>
 	<div id="screen">
-		<img id="map" src="images/evanston_map_directions.PNG" alt="map">
-		<div id="directionheader">
+
+		<div class="player-head-bar">
+			<a href="Shelter_Info.html">
+				<div class="back-button"><i class="material-icons">arrow_back</i></div>
+			</a>
+			<div class="headtitle">Directions</div>
 			<a href="find_a_shelter.html">
-					<button class="button"><i class="material-icons">arrow_back</i></button>
-				</a>
+				<div class="newsearch-button"><i class="material-icons">cancel</i></div>
+			</a>
 		</div>
-		<div id="directionbox">
-			 Directions to: 1215 Church Rd <br>
+
+		<div class="body">
+
+			<div id="map">
+				<img id="image" src="images/evanston_map_directions.PNG" alt="map" height="auto" width="280px" />
+			</div>
+
+			<div class="search-box">
+				<span class="title"><b> 
+					YWCA Evanston <br>
+					1215 Church St. <br>
+				</b></span>
+
+				<table id="directiontable">
+					<tr> 
+						<td class="detail"> Time: 12 Min </td>
+						<td class="right detail"> Distance: 1.7 Mi</td>
+					</tr>
+					<tr>
+						<td> Turn Left </td>
+						<td class="right"> 0.4 Mi </td>
+					</tr>
+					<tr>
+						<td> Turn Right </td>
+						<td class="right"> 1.0 Mi </td>
+					</tr>
+					<tr>
+						<td> Turn Left </td>
+						<td class="right"> 0.2 Mi </td>
+					</tr>
+					<tr>
+						<td> Arrive </td>
+						<td class="right"> 0.1 Mi </td>
+					</tr>
+				</table>
+
+				<div class="directionoptions">
+					<button class="button" id="walk" onclick="walk()"><i class="material-icons">directions_walk</i></button>
+					<button class="button" id="car" onclick="car()"><i class="material-icons">directions_car</i></button>
+					<button class="button" id="transit" onclick="transit()"><i class="material-icons">directions_bus</i></button>
+				</div>
+
+			</div>
 		</div>
-		<table id="directiontable">
-			<tr> 
-				<td class="detail"> Time: 12 Min </td>
-				<td class="right detail"> Distance: 1.9 Mi</td>
-			</tr>
-			<tr>
-				<td> Turn Left </td>
-				<td class="right"> .4 Mi </td>
-			</tr>
-			<tr>
-				<td> Turn Right </td>
-				<td class="right"> 1.2 Mi </td>
-			</tr>
-			<tr>
-				<td> Turn Left </td>
-				<td class="right"> .2 Mi </td>
-			</tr>
-			<tr>
-				<td> Arrive </td>
-				<td class="right"> .1 Mi </td>
-			</tr>
-		</table>
 	</div>
 
+	<script src="js/shelter_directions.js"> </script>
 </body>
+
 </html>
-<!--
-* bg iphone img is 363x762px
-* iphone 'screen' is apprx 300x530 -->

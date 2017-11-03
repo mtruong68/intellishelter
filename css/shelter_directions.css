@@ -1,9 +1,4 @@
-#map {
-	max-width: 250px;
-	margin: 0px 0px 15px 25px;
-}
-
-#directionheader {
+/* #directionheader {
 	width: 300px;
 	height: 30px;
 	background-color: rgb(144, 169, 178);
@@ -20,10 +15,6 @@
 	border-radius: 4px;
 }
 
-.detail {
-	font-weight: bold;
-}
-
 .button {
 	background-color: #dae2ef;
 	border: none;
@@ -35,22 +26,113 @@
 
 .button:hover {
 	cursor: pointer;
+} */
+
+.player-head-bar {
+	background-color: rgb(173, 216, 250));
+	width: 300px;
+	height: 50px;
+	display: flex;
 }
 
+.back-button {	
+	color: black;
+	background-color: rgb(173, 216, 250);
+	display: inline-block;
+	padding: 4px;
+	width: 35px;
+	text-align: center;
+	border-radius: 5px;
+	margin: 0px 25px 0px 15px;
+	
+}
+
+.headtitle{
+	display: inline-block;
+	font-weight: bold;
+	font-size: 26px;
+}
+
+.newsearch-button {
+	float: right;
+	background-color: rgb(173, 216, 250);
+	color: black;
+	display: inline-block;
+	padding: 4px;
+	width: 35px;
+	text-align: center;
+	border-radius: 5px;
+	margin: 0px 15px 0px 25px;
+}
+
+#map {
+	margin: 0px 0px 15px 10px;
+}
+
+.search-box {
+	width: 260px;
+	display: flex;
+	flex-direction: column;
+	border: 2px solid #a1bad1;
+	border-radius: 10px;
+	margin: 10px 0px 0px 17px;
+}
+
+.title {
+	padding-top: 10px;
+	padding-left: 10px;
+	text-align: center;
+}
+
+/*table*/
 #directiontable{
 	font-size: 14px;
+	font-weight: bold;
 	width: 90%;
 	border-collapse: collapse;
-	border-top: 1px solid #ced5e0;
-	margin-left: 15px;
+	border-top: 1px solid black;
+	margin: 15px 0px 10px 15px;
 }
 
 td {
-	border-bottom: 1px solid #ced5e0;
+	border-bottom: 1px solid black;
 	padding: 2px 0px 2px 8px;
+	background-color: rgb(173, 216, 250);
+}
+
+.detail {
+	font-weight: bold;
+	font-size: 14px;
+	padding: 5px;
+	background-color: #cae3f7;
+	border-bottom: solid 2px #7d90a0;
 }
 
 #directiontable .right {
 	text-align: right;
 	padding-right: 10px;
+}
+/*table end*/
+
+.directionoptions {
+	padding: 0px 10px 10px 3px;
+	margin-left: 45px;
+}
+
+.button {
+	background-color: #5e86a8;
+    border: 2px solid #acc8e0;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+    margin-right: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    float: left;
+}
+
+#walk {
+	background-color: #21486b;
 }
