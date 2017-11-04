@@ -40,6 +40,7 @@ body {
 #phone {
 	border-top: 1px solid grey;
 	margin-top: 5px;
+	padding-bottom: 10px;
 }
 
 #address1 {
@@ -49,6 +50,10 @@ body {
 #address2 {
 	border-bottom: 1px solid grey;
 	font-size: 13px;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	position: relative;
+	bottom: 7px;
 }
 
 #get-directions {
@@ -68,6 +73,23 @@ body {
 	cursor: pointer;
 }
 
+#advanced-info {
+	width: 260px;
+	height: 50px;
+	background-color: rgb(33, 156, 204);
+	border: none;
+	font-weight: bold;
+	font-size: 16px;
+	border-radius: 10px;
+	margin-left: 8px;
+	margin-top: 6px;
+	margin-bottom: 10px;
+}
+
+#advanced-info:hover {
+	cursor: pointer;
+}
+
 .map_screen {
 	width: 280px;
 	height: auto;
@@ -76,8 +98,9 @@ body {
 
 .info {
 	padding-left: 10px;
-	padding-top: 5px;
-	margin: 0px 2px;
+	padding-top: 10px;
+	margin-left: 2px;
+	margin-right: 2px;
 }
 
 .back-button {
