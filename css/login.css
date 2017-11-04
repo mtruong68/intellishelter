@@ -7,19 +7,20 @@
 #head_bar {
 	width: 300px;
 	height: 30px;
-	background-color: rgb(144, 169, 178);
+	background-color: #5e86a8;
 
 }
 
-.button {
-	background-color: #dae2ef;
+.backbutton {
+	background-color: #e6eaf2;
 	border: none;
+	border-radius: 5px;
 	max-width: 45px;
 	height: 24px;
 	margin: 3px 0px 0px 3px;
 }
 
-.button:hover {
+.backbutton:hover {
 	cursor: pointer;
 }
 
@@ -52,6 +53,20 @@
 }
 
 
-#button {
+.submitlogin {
+	margin: 15px 0px 10px 0px;
 	float:right;
+	width: 40px;
+
+	background-color: #5e86a8;
+	border: none;
+	border-radius: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.submitlogin:hover {
+	cursor: pointer;
 }
