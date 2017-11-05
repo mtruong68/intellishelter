@@ -65,13 +65,16 @@
   letter-spacing: 2px;
   font-size: 20px;
 }
-span {
-  font-size: 16px;
-}
 .shelter {
   margin: 5px;
-  border: 1px solid black;
+	border-radius: 8px;
   display: flex;
   flex-direction: column;
   background-color: rgb(173, 216, 250);
+}
+.shelter span {
+	padding-left: 5px;
+	font-size: 15px;
+	text-decoration: none;
+	color: black;
 }
