@@ -4,14 +4,10 @@ body {
 	font-family: Avenir, sans-serif;
 }
 
-#screen {
-	background-color: rgb(173, 216, 250)
-}
-
 #head-bar {
 	width: 300px;
 	height: 30px;
-	background-color: rgb(144, 169, 178);
+	background-color: #5e86a8;
 }
 #screen {
 	display: block;
@@ -40,8 +36,6 @@ body {
 	border-style: none;
 	position: relative;
 	bottom: 20px;
-
-	background-color: rgb(173, 216, 250)
 }
 
 #Address {
@@ -130,8 +124,12 @@ body {
 }
 
 .back-button {
-	background-color: rgb(33, 156, 204);
+	background-color: #e6eaf2;
 	border: none;
+	border-radius: 5px;
+	max-width: 45px;
+	height: 24px;
+	margin: 3px 0px 0px 3px;
 }
 
 .back-button:hover {
@@ -178,7 +176,7 @@ body {
 .directions_button {
 	width: 290px;
 	height: 50px;
-	background-color: rgb(33, 156, 204);
+	background-color: rgb(173, 216, 250);
 	margin-left: 5px;
 	border: none;
 
@@ -198,7 +196,7 @@ body {
 .notifications_button {
 	width: 290px;
 	height: 50px;
-	background-color: rgb(33, 156, 204);
+	background-color: rgb(173, 216, 250);
 	margin-left: 5px;
 	border: none;
 
