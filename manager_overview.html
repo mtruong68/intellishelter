@@ -5,22 +5,24 @@
 	<link rel="stylesheet" type="text/css" href="css/manager.css"/>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
 	rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="js/manager.js"></script>
 </header>
 <body>
 	<div id="screen">
 		<div id="contents">
 			<div id="head_bar">
 				<a href="login_page.html">
-					<button class="button"><i class="material-icons">arrow_back</i></button>
+					<button class="backbutton"><i class="material-icons">arrow_back</i></button>
 				</a>
 			</div>
 			<div id="top_text">YWCA Evanston</div>
 			<a href="manager_update.html" id="update_link">
-				<button id="update_button" class="button">Update Shelter Info</button>
+				<button id="update_button" class="button-general">Update Shelter Info</button>
 			</a>
 			<form>
 				<textarea id="update_info" name="update_text" placeholder="Type your shelter notification here. &#10;&#10;Every individual subscribed to your shelter will receive the notification."></textarea>
-				<input id="submit_button" type="submit" class="button" value="Send Shelter Notification">
+				<input id="submit_button" type="submit" class="button-general" value="Send Shelter Notification">
 			</form>
 		</div>
 	</div>

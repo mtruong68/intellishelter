@@ -1,13 +1,36 @@
 
 
-.button {
-	background-color: rgb(33, 156, 204);
+.button-general {
+	background-color: #5e86a8;
+	color: white;
 	border: none;
 }
 
-.button:hover {
+.button-general:hover {
 	cursor: pointer;
 }
+
+
+#head_bar {
+	width: 300px;
+	height: 30px;
+	background-color: #5e86a8;
+
+}
+
+.backbutton {
+	background-color: #e6eaf2;
+	border: none;
+	border-radius: 5px;
+	max-width: 45px;
+	height: 24px;
+	margin: 3px 0px 0px 3px;
+}
+
+.backbutton:hover {
+	cursor: pointer;
+}
+
 
 textarea{
 	resize: none;
@@ -53,13 +76,6 @@ textarea{
 	margin-top: 5px; 
 	height: 30px;
 	width: 150px;
-}
-
-#head_bar {
-	width: 300px;
-	height: 30px;
-	background-color: rgb(144, 169, 178);
-
 }
 
 .update_form {
