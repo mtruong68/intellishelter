@@ -1,31 +1,19 @@
-.player-head-bar {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: rgb(173, 216, 250));
-	width: auto;
-	height: 50px;
-	padding-left: 10px;
-}
-.invis {
-	visibility: hidden;
-	width: 290px;
-}
-.back-button {
-	/*box*/
-	margin: 10px;
-	margin-left: 0px;
-	width: 60px;
-	height: 70%;
-	border: 2px solid white;
+#head_bar {
+	width: 300px;
+	height: 30px;
 	background-color: rgb(173, 216, 250);
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	/*arrow*/
-	font-size: 25px;
-	color: black;
-  text-decoration: none;
+}
+.backbutton {
+	background-color: #e6eaf2;
+	border: none;
+	border-radius: 5px;
+	max-width: 45px;
+	height: 24px;
+	margin: 3px 0px 0px 3px;
+}
+
+.backbutton:hover {
+	cursor: pointer;
 }
 .body {
   display: flex;
