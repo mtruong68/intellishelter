@@ -16,7 +16,7 @@ function walk_f() {
 	}
 
 	walk.classList.add("on");
-	map.src = "images/evanston_map_directions.PNG";
+	map.src = "images/evanston_map_directions.png";
 
 	cartable.style.display = "none";
 	transittable.style.display = "none";
@@ -29,7 +29,7 @@ function car_f() {
 	}
 
 	car.classList.add("on");
-	map.src = "images/car_directions.PNG";
+	map.src = "images/car_directions.png";
 
 	cartable.style.display = "table";
 	transittable.style.display = "none";
@@ -42,7 +42,7 @@ function transit_f() {
 	}
 
 	transit.classList.add("on");
-	map.src = "images/bus_directions.PNG";
+	map.src = "images/bus_directions.png";
 
 	cartable.style.display = "none";
 	transittable.style.display = "table";
