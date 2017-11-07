@@ -55,6 +55,7 @@ textarea{
 	width: 220px;
 	height: 80px;
 	font-size: 16px;
+	border-radius: 10px;
 }
 
 #update_link{
@@ -66,11 +67,13 @@ textarea{
 #update_info {
 	width: 255px;
 	height: 150px;
+
 }
 
 #submit_button {
 	height: 30px;
 	width: 255px;
+	border-radius: 0px 0px 10px 10px;
 }
 
 .wrapper {
