@@ -8,37 +8,42 @@
 <body>
   <div id="screen">
   	<div id="head-bar">
-  		<a href="Shelter_Info.html">
-			<button class="back-button"><i class="material-icons">arrow_back</i></button>
-		</a>
-	</div>
-  		<div id="Info-Title">
-  			<p class="Shelter-Information-Title" id="Section-Header"> YWCA Evanston </p>
-  			<p class="Shelter-Information-Title" id="Address"> Address </p>
-  			<p class="Shelter-Information-Title" id="Phone-Number"> Phone Number </p>
-  			<p class="Shelter-Information-Title" id="Capacity"> Capacity </p>
-  			<p class="Shelter-Information-Title" id="Additional-Info"> Additional Info </p>
-  		</div>
-  		<div id="Info">
-  			<p class="Shelter-Information" id="addr"> 1215 Church St. </p>
-  			<p class="Shelter-Information" id="addr2"> Evanston, IL 60201 </p>
-  			<p class="Shelter-Information" id="phonenum"> (958) 555-0100 </p>
-  			<p class="Shelter-Information" id="cap"> 0/250 </p>
-  			<p class="Shelter-Information" id="addinfo"> * Pet Friendly <br> * Handicap Accessible <br> * Family Firendly </p>
-  		</div>
+      <a href="Shelter_Info.html">
+        <button id="back-button"><i class="material-icons">arrow_back</i></button>
+      </a>
+    </div>
 
-  		<a href="shelter_directions.html">
-  			<button class="directions_button"> Get Directions to this Shelter </button>
-  		</a>
+    <div id="body">
+      <div id="Shelter_Name"> YWCA Evanston </div>
 
-  		<div id="Notifications">
-  			<p id="notifications_header"> Notifications </p>
-  			<p id="announcement1" class="announcement"> 10/15/2017 </p>
-  			<p id="announcement2" class="announcement"> 10/04/2017 </p>
-  			<p id="announcement3" class="announcement"> 9/02/2017 </p>
-  	 	</div>
+      <div id="info_container">
+        <div id="address_container">
+          <div class="info_title" id="address_title"> Address </div>
+          <div class="info" id="address"> 1215 Church St.<br><a>Evanston, Il 60201</a></div>
+        </div>
 
-  	 	<button class="notifications_button"> Receive Shelter Notofications </button>
+        <div id="phone_container">
+          <div class="info_title" id="phone_title"> Phone Number </div>
+          <div class="info" id="phone"> +1 (958) 555-0100 </div>
+        </div>
+
+        <div id="capacity_container">
+          <div class="info_title" id="capacity_title"> Capacity </div>
+          <div class="info" id="capacity"> <a> 0 </a> / <c> 250 </c> </div>
+        </div>
+
+        <div id="additional_info_container">
+          <div class="info_title" id="additional_info_title"> Additional Information </div>
+          <div class="info" id="additional_info"> * Pet Friendly <br> * Handicap Accessible <br> * Family Firendly </div>
+        </div>
+      </div>
+
+      <a href="shelter_directions.html">
+        <button id="directions_button"> Get Directions (1.9 Miles) </button>
+      </a>
+
+      <button id="notifications_button"> Receive Shelter Notofications </button>
+    </div>
   </div>
   <script src="js/ipod.js"></script>
 </body>
