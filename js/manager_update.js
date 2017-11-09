@@ -10,21 +10,22 @@ $(document).ready(function(){
 		var name = $("#form_name").val();
 		var capacity = $("#form_cap").val();
 		var max_capacity = $("#form_max").val();
-		var additional_info = $("#update_info").text();
+		var additional_info = $("#update_info").val();
 	}
 
 	//set current values set above
 	$("#form_name").val(name);
 	$("#form_cap").val(capacity);
 	$("#form_max").val(max_capacity);
-	$("#update_info").text(additional_info);
-
+	$("#update_info").val(additional_info);
+	console.log(additional_info);
 	//on click, set storage values to current values
 	$("#submit_button").click(function(){
 		name = $("#form_name").val();
 		capacity = $("#form_cap").val();
 		max_capacity = $("#form_max").val();
-		additional_info = $("#update_info").text();
+		additional_info = $("#update_info").val();
+		console.log(additional_info);
 
 		localStorage.setItem("name", name);
 		localStorage.setItem("capacity", capacity);
