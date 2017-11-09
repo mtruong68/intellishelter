@@ -1,3 +1,5 @@
 $(document).ready(function(){
-	$("#top_text").text(localStorage.getItem("name", name));
+	if(localStorage.getItem("name") != null){
+		$("#top_text").text(localStorage.getItem("name", name));
+	}
 });
