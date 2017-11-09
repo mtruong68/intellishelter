@@ -4,11 +4,6 @@ body {
 	font-family: Avenir, sans-serif;
 }
 
-#head-bar {
-	width: 300px;
-	height: 30px;
-	background-color: #5e86a8;
-}
 #screen {
 	display: block;
 	justify-content: center;
@@ -17,113 +12,13 @@ body {
 	margin: 105px 23px;
 }
 
-#Info-Title {
+#head-bar {
 	width: 300px;
-	height: 300px;
+	height: 30px;
+	background-color: #5e86a8;
 }
 
-#Info {
-	width: 300px;
-	height: 200px;
-}
-
-#Section-Header {
-	text-align: center;
-	font-weight: bold;
-	font-size: 22px;
-
-
-	border-style: none;
-	position: relative;
-	bottom: 20px;
-}
-
-#Address {
-	position: relative;
-	bottom: 35px;
-
-	padding-bottom: 23px;
-	padding-top: 7px;
-}
-
-#Phone-Number {
-	position: relative;
-	bottom: 51px;
-}
-
-#Capacity {
-	position: relative;
-	bottom: 67px;
-}
-
-#Additional-Info {
-	position: relative;
-	bottom: 83px;
-	padding-bottom: 100px;
-}
-
-#addr {
-	position: relative;
-	right: 15px;
-	bottom: 295px;
-
-	font-size: 18px;
-}
-
-#addr2 {
-	position: relative;
-	right: 15px;
-	bottom: 315px;
-
-	font-size: 14px;
-}
-
-#phonenum {
-	position: relative;
-	right: 15px;
-	bottom: 320px;
-}
-
-#cap {
-	position: relative;
-	right: 15px;
-	bottom: 327px;
-}
-
-#addinfo {
-	text-align: left;
-	font-size: 14px;
-
-	padding-left: 20px;
-
-	position: relative;
-	bottom: 315px;
-}
-
-#announcement1 {
-	position: relative;
-	bottom: 294px;
-}
-
-#announcement2 {
-	position: relative;
-	bottom: 312px;
-}
-
-#announcement3 {
-	position: relative;
-	bottom: 330px;
-}
-
-#notifications_header {
-	text-align: center;
-	position: relative;
-	bottom: 272px;
-	font-weight: bold;
-	font-size: 22px;
-}
-
-.back-button {
+#back-button {
 	background-color: #e6eaf2;
 	border: none;
 	border-radius: 5px;
@@ -132,79 +27,130 @@ body {
 	margin: 3px 0px 0px 3px;
 }
 
-.back-button:hover {
+#back-button:hover {
 	cursor: pointer;
 }
 
-.Shelter-Information-Title {
-	border-style: solid;
-	border-color: black;
-	border-width: 2px;
+#body {
+	width: 300px;
+	height: 500px;
+}
 
-	margin-bottom: 14px;
-	margin-left: 5px;
-	margin-right: 5px;
-
-	padding-bottom: 5px;
+#shelter_name {
+	text-align: center;
+	font-weight: bold;
+	font-size: 22px;
 	padding-top: 5px;
-	padding-left: 5px;
+	padding-bottom: 5px;
+}
 
+#info_container {
+	margin: 0px 5px;
+	height: auto;
+	border: 2px solid black;
+	border-radius: 12px;
+}
+
+#address_container {
+	display: flex;
+	flex-direction: row;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-right: 2px;
+	margin-left: 2px;
+	border-bottom: 1px solid grey;
+}
+#address_title {
+	padding-top: 2px;
+}
+
+#address a {
 	font-size: 14px;
-
-	position: relative;
-
-	background-color: white;
 }
 
-.Shelter-Information {
-	text-align: right;
+#phone_container {
+	display: flex;
+	flex-direction: row;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-right: 2px;
+	margin-left: 2px;
+	border-bottom: 1px solid grey;
 }
 
-.announcement {
+#phone {
+	font-size: 16px;
+}
+
+#capacity_container {
+	display: flex;
+	flex-direction: row;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-right: 2px;
+	margin-left: 2px;
+	border-bottom: 1px solid grey;
+}
+#additional_info_container {
+	display: flex;
+	flex-direction: column;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+#additional_info_title {
+	width: 300px;
+	padding-bottom: 3px;
+}
+#additional_info {
+	font-size: 14px;
 	text-align: left;
-	margin-left: 5px;
-	margin-right: 5px;
-
-	padding-left: 5px;
-
-	border-style: solid;
-	border-width: 2px;
-
-	background-color: white;
+	padding-left: 15px;
+	padding-bottom: 5px;
 }
 
-.directions_button {
+#directions_button {
+	width: 290px;
+	height: 50px;
+	background-color: rgb(173, 216, 250);
+	border: none;
+	margin-left: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#directions_button:hover {
+	cursor: pointer;
+}
+
+#notifications_button {
 	width: 290px;
 	height: 50px;
 	background-color: rgb(173, 216, 250);
 	margin-left: 5px;
 	border: none;
-
-	position: relative;
-	bottom: 250px;
-
 	font-weight: bold;
 	font-size: 16px;
-
 	border-radius: 10px;
 }
 
-.directions_button:hover {
+#notifications_button: hover {
 	cursor: pointer;
 }
 
-.notifications_button {
-	width: 290px;
-	height: 50px;
-	background-color: rgb(173, 216, 250);
-	margin-left: 5px;
-	border: none;
-
-	position: relative;
-	bottom: 343px;
-
-	font-weight: bold;
+.info_title {
+	width: 150px;
+	margin-left: 8px;
 	font-size: 16px;
+}
 
-	border-radius: 10px;	
+.info {
+	width: 150px;
+	text-align: right;
+	margin-right: 8px;
+	font-size: 18px;
 }
