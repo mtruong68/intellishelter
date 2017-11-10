@@ -26,7 +26,7 @@ body {
 #info_box {
 	margin-left: 10px;
 	margin-right: 10px;
-	height: 300px;
+	height: auto;
 	width: auto;
 	border: 2px solid black;
 	border-radius: 10px;
@@ -35,25 +35,39 @@ body {
 #name {
 	font-weight: bold;
 	font-size: 18px;
-}
-
-#phone {
-	border-top: 1px solid grey;
 	margin-top: 5px;
-	padding-bottom: 10px;
 }
 
-#address1 {
+#phone_container {
+	display: flex;
+	flex-direction: row;
 	border-top: 1px solid grey;
+	margin: 0px 2px;
 }
 
-#address2 {
+#phone_icon {
+	padding-top: 4px;
+	margin-right: 5px;
+}
+
+#address_container {
+	display: flex;
+	flex-direction: row;
+	border-top: 1px solid grey;
 	border-bottom: 1px solid grey;
+	margin: 0px 2px;
+}
+
+#address {
+	width: 226px;
+}
+
+#address a {
 	font-size: 13px;
-	padding-left: 15px;
-	padding-bottom: 10px;
-	position: relative;
-	bottom: 7px;
+}
+
+#address_icon {
+	padding-top: 12px;
 }
 
 #get-directions {
@@ -65,8 +79,7 @@ body {
 	font-size: 16px;
 	border-radius: 10px;
 	margin-left: 8px;
-	margin-top: 6px;
-	margin-bottom: 10px;
+	margin-bottom: 7px;
 }
 
 #get-directions:hover {
@@ -82,8 +95,8 @@ body {
 	font-size: 16px;
 	border-radius: 10px;
 	margin-left: 8px;
-	margin-top: 6px;
-	margin-bottom: 10px;
+	margin-top: 7px;
+	margin-bottom: 7px;
 }
 
 #advanced-info:hover {
@@ -98,9 +111,10 @@ body {
 
 .info {
 	padding-left: 10px;
-	padding-top: 10px;
 	margin-left: 2px;
 	margin-right: 2px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .back-button {
