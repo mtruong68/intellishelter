@@ -41,12 +41,11 @@ body {
 	font-weight: bold;
 	font-size: 22px;
 	padding-top: 5px;
-	padding-bottom: 5px;
 }
 
 #info_container {
 	margin: 0px 5px;
-	height: auto;
+	height: 214px;
 	border: 2px solid black;
 	border-radius: 12px;
 }
@@ -116,8 +115,8 @@ body {
 	background-color: rgb(173, 216, 250);
 	border: none;
 	margin-left: 5px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 	border-radius: 10px;
 	font-weight: bold;
 	font-size: 16px;
@@ -125,6 +124,18 @@ body {
 
 #directions_button:hover {
 	cursor: pointer;
+}
+
+#notifications_title {
+	text-align: center;
+	font-weight: bold;
+	font-size: 22px;
+}
+
+#notifications_container {
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: 0px 5px 5px 5px;
 }
 
 #notifications_button {
@@ -142,6 +153,14 @@ body {
 	cursor: pointer;
 }
 
+#note1 {
+	border-bottom: 1px solid gray;
+}
+
+#note2 {
+	border-bottom: 1px solid gray;
+}
+
 .info_title {
 	width: 150px;
 	margin-left: 8px;
@@ -153,4 +172,9 @@ body {
 	text-align: right;
 	margin-right: 8px;
 	font-size: 18px;
+}
+
+.notifications{
+	margin: 0px 2px 0px 2px;
+	padding: 3px 0px 3px 8px;
 }
