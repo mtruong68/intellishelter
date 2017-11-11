@@ -67,6 +67,7 @@
 	border-collapse: collapse;
 	border-top: 1px solid black;
 	margin: 15px 0px 10px 15px;
+	display: none;
 }
 
 #cartable{
@@ -76,10 +77,9 @@
 	border-collapse: collapse;
 	border-top: 1px solid black;
 	margin: 15px 0px 10px 15px;
-	display: none;
 }
 
-#cartable .sub {
+.sub {
 	font-weight: bold;
 	font-size: 10px;
 }
