@@ -1,13 +1,12 @@
-.player-head-bar {
+/*.player-head-bar {
 	background-color: white;
 	width: 290px;
 	height: 30px;
 	display: flex;
 	padding: 10px 0px 5px 0px;
 	margin: 0px 0px 15px 1px;
-}
 
-.back-button {	
+	.back-button {	
 	color: black;
 	background-color: rgb(173, 216, 250);
 	display: inline-block;
@@ -18,6 +17,30 @@
 	margin: 0px 25px 0px 15px;
 	
 }
+}*/
+
+#head_bar {
+	width: 300px;
+	height: 30px;
+	background-color: #5e86a8;
+	position: absolute;
+	top: 106px;
+}
+
+.backbutton {
+	background-color: #e6eaf2;
+	border: none;
+	border-radius: 5px;
+	max-width: 45px;
+	height: 24px;
+	margin: 3px 0px 0px 3px;
+}
+
+.backbutton:hover {
+	cursor: pointer;
+}
+
+
 
 .headtitle{
 	display: inline-block;
