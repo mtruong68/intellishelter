@@ -9,131 +9,126 @@
 </header>
 
 <body>
-
 	<div id="screen">
-		<div class="player-head-bar">
-			<a href="Shelter_Info.html">
-				<div class="back-button"><i class="material-icons">arrow_back</i></div>
-			</a>
-			<div class="headtitle">Directions</div>
-			<a href="find_a_shelter.html">
-				<div class="newsearch-button"><i class="material-icons">cancel</i></div>
+		<div id="head_bar">
+			<a href="../Shelter_Info.html">
+				<button class="backbutton"><i class="material-icons">arrow_back</i></button>
 			</a>
 		</div>
+		
+	<div class="body">
 
-		<div class="body">
+		<div id="map">
+			<img id="image" src="../images/car_directions.png" alt="map" height="auto" width="280px" />
+		</div>
 
-			<div id="map">
-				<img id="image" src="../images/car_directions.png" alt="map" height="auto" width="280px" />
-			</div>
+		<div class="search-box">
+			<span class="title"><b> 
+				United Center <br>
+				1901 W Madison St.<br>
+			</b></span>
 
-			<div class="search-box">
-				<span class="title"><b> 
-					United Center <br>
-					1901 W Madison St.<br>
-				</b></span>
+			<div id="directiontable">
 
-				<div id="directiontable">
-
-					<table id="cartable" class="tableon">
-						<tr> 
-							<td class="detail"> Time: 35 Min </td>
-							<td class="right detail"> Distance: 8.9 Mi</td>
+				<table id="cartable" class="tableon">
+					<tr> 
+						<td class="detail"> Time: 35 Min </td>
+						<td class="right detail"> Distance: 8.9 Mi</td>
+					</tr>
+					<tr>
+						<td> Turn Left 
+							<div class="sub">Onto Chicago Ave</div>
+						</td>
+						<td class="right"> 2.7 Mi </td>
+					</tr>
+					<tr>
+						<td> Turn Right
+							<div class="sub">Onto N Ashland Ave</div>
+						</td>
+						<td class="right"> 6.2 Mi </td>
+					</tr>
+					<tr>
+						<td> Arrive 
+							<div class="sub">Destination on Right</div>
+							<td class="right"> </td>
 						</tr>
-						<tr>
-							<td> Turn Left 
-								<div class="sub">Onto Chicago Ave</div>
-							</td>
-							<td class="right"> 2.7 Mi </td>
+					</table>
+
+					<table id="walktable">
+						<tr> 
+							<td class="detail"><font size="2"> Time: 3 Hr 35 Min </font></td>
+							<td class="right detail"><font size="2"> Distance: 8.9 Mi</font></td>
 						</tr>
 						<tr>
 							<td> Turn Right
-								<div class="sub">Onto N Ashland Ave</div>
+								<div class="sub"> Onto Chicago Ave </div> 
 							</td>
-							<td class="right"> 6.2 Mi </td>
+							<td class="right"> 0.6 Mi </td>
 						</tr>
 						<tr>
-							<td> Arrive 
-								<div class="sub">Destination on Right</div>
-								<td class="right"> </td>
-							</tr>
-						</table>
+							<td> Continue </td>
+							<td class="right"> 3.9 Mi </td>
+						</tr>
+						<tr>
+							<td> Turn Right 
+								<div class="sub">Onto N Ashland Ave</div>
+							</td>
+							<td class="right"> 0.2 Mi </td>
+						</tr>
+						<tr>
+							<td> Continue </td>
+							<td class="right"> 4.1 Mi </td>
+						</tr>
 
-						<table id="walktable">
-							<tr> 
-								<td class="detail"><font size="2"> Time: 3 Hr 35 Min </font></td>
-								<td class="right detail"><font size="2"> Distance: 8.9 Mi</font></td>
-							</tr>
-							<tr>
-								<td> Turn Right
-									<div class="sub"> Onto Chicago Ave </div> 
-								</td>
-								<td class="right"> 0.6 Mi </td>
-							</tr>
-							<tr>
-								<td> Continue </td>
-								<td class="right"> 3.9 Mi </td>
-							</tr>
-							<tr>
-								<td> Turn Right 
-									<div class="sub">Onto N Ashland Ave</div>
-								</td>
-								<td class="right"> 0.2 Mi </td>
-							</tr>
-							<tr>
-								<td> Continue </td>
-								<td class="right"> 4.1 Mi </td>
-							</tr>
+						<tr>
+							<td> Arrive </td>
+							<td class="right"></td>
+						</tr>
+					</table>
 
+
+					<table id="transittable">
+						<tr> 
+							<td class="detail"> <font size="2"> Time: 1 Hr 15 Min </font></td>
+							<td class="right detail"><font size="2"> Distance: 8.9 Mi</font></td>
+						</tr>
+						<tr>
+							<td> Walk </td>
+							<td class="right"> 0.7 Mi </td>
+						</tr>
+						<tr>
+							<td> CTA Purple Line
+								<div class="sub">Davis Station</div>
+							</td>
+							<td class="right"> 15 Stops 
+								<div class="sub">8.0 Mi</div></td>
+							</tr>
+							<tr>
+								<td> CTA Pink Line
+									<div class="sub">Ashland</div>
+								</td>
+								<td class="right"> Exit </td>
+							</tr>
 							<tr>
 								<td> Arrive </td>
-								<td class="right"></td>
+								<td class="right"> 0.2 Mi </td>
 							</tr>
 						</table>
 
-
-						<table id="transittable">
-							<tr> 
-								<td class="detail"> <font size="2"> Time: 1 Hr 15 Min </font></td>
-								<td class="right detail"><font size="2"> Distance: 8.9 Mi</font></td>
-							</tr>
-							<tr>
-								<td> Walk </td>
-								<td class="right"> 0.7 Mi </td>
-							</tr>
-							<tr>
-								<td> CTA Purple Line
-									<div class="sub">Davis Station</div>
-								</td>
-								<td class="right"> 15 Stops 
-									<div class="sub">8.0 Mi</div></td>
-								</tr>
-								<tr>
-									<td> CTA Pink Line
-										<div class="sub">Ashland</div>
-									</td>
-									<td class="right"> Exit </td>
-								</tr>
-								<tr>
-									<td> Arrive </td>
-									<td class="right"> 0.2 Mi </td>
-								</tr>
-							</table>
-
-						</div>
-
-						<div class="directionoptions">
-							<button class="button on" id="car" onclick="car_f()"><i class="material-icons">directions_car</i></button>
-							<button class="button" id="walk" onclick="walk_f()"><i class="material-icons">directions_walk</i></button>
-							<button class="button" id="transit" onclick="transit_f()"><i class="material-icons">directions_transit</i></button>
-						</div>
-
 					</div>
+
+					<div class="directionoptions">
+						<button class="button on" id="car" onclick="car_f()"><i class="material-icons">directions_car</i></button>
+						<button class="button" id="walk" onclick="walk_f()"><i class="material-icons">directions_walk</i></button>
+						<button class="button" id="transit" onclick="transit_f()"><i class="material-icons">directions_transit</i></button>
+					</div>
+
 				</div>
 			</div>
+		</div>
 
-			<script src="../js/shelter_directions.js"> </script>
+		<script src="../js/shelter_directions.js"> </script>
 
-		</body>
+	</body>
 
-		</html>
+	</html>
