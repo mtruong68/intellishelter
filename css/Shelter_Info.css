@@ -54,7 +54,6 @@ body {
 	display: flex;
 	flex-direction: row;
 	border-top: 1px solid grey;
-	border-bottom: 1px solid grey;
 	margin: 0px 2px;
 }
 
@@ -79,11 +78,12 @@ body {
 	font-size: 16px;
 	border-radius: 10px;
 	margin-left: 8px;
-	margin-bottom: 7px;
+	margin-bottom: 10px;
 }
 
 #get-directions:hover {
 	cursor: pointer;
+	background-color: #577fc1;
 }
 
 #advanced-info {
@@ -95,12 +95,12 @@ body {
 	font-size: 16px;
 	border-radius: 10px;
 	margin-left: 8px;
-	margin-top: 7px;
-	margin-bottom: 7px;
+	margin-bottom: 10px;
 }
 
 #advanced-info:hover {
 	cursor: pointer;
+	background-color: #577fc1;
 }
 
 .map_screen {
