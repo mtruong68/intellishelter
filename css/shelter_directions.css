@@ -26,7 +26,7 @@
 #head_bar {
 	width: 300px;
 	height: 30px;
-	background-color: #5e86a8;
+	background-color: rgb(87, 127, 193);
 	margin-bottom: 15px;
 }
 
@@ -68,11 +68,11 @@
 
 .search-box {
 	width: 260px;
-	height: 275px;
+	/* height: 275px; */
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	border: 2px solid #a1bad1;
+	border: 2px solid #acc8e0;
 	border-radius: 10px;
 	margin: 15px 0px 0px 17px;
 	background-color: white;
@@ -128,14 +128,14 @@
 td {
 	border-bottom: 1px solid black;
 	padding: 2px 0px 2px 8px;
-	background-color: rgb(173, 216, 250);
+	background-color: #dce6f7;
 }
 
 .detail {
 	font-weight: bold;
 	font-size: 14px;
 	padding: 5px;
-	background-color: #cae3f7;
+	background-color: #8db0e8;
 	border-bottom: solid 2px #7d90a0;
 }
 
@@ -151,7 +151,7 @@ td {
 }
 
 .button {
-	background-color: #5e86a8;
+	background-color: #5b7fb7;
     border: 2px solid #acc8e0;
     color: white;
     padding: 4px;
