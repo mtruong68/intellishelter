@@ -4,6 +4,10 @@ var src = ["User Current Location"]
 $(document).ready(function() {
   console.log("ready!")
 
+  if(!(localStorage.getItem("name") == null || localStorage.getItem("name") == "")){
+    $("#name").text(localStorage.getItem("name"));
+  }
+
   $("#autocomplete").val(userInput);
 
   $("#autocomplete").focus(function() {
