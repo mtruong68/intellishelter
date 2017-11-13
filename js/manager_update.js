@@ -27,6 +27,19 @@ $(document).ready(function(){
 		localStorage.setItem("capacity", capacity);
 		localStorage.setItem("max_capacity", max_capacity);
 		localStorage.setItem("additional_info", additional_info);
+
+		//toggle between update states after 3 seconds
+		$("#submit_button").css("background-color", "limegreen");
+		$("#submit_button").val("Updated!");
+		var doOnce = false;
+		var timer = setInterval(function(){
+			if(doOnce){
+				clearInterval(timer);
+			}
+			$("#submit_button").css("background-color", "#577fc1");
+			$("#submit_button").val("Update");
+			doOnce = true;
+		}, 3000);
 	});
 
 });
