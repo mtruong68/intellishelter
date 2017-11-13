@@ -1,7 +1,7 @@
 #head_bar {
 	width: 300px;
 	height: 30px;
-	background-color: rgb(173, 216, 250);
+	background-color: rgb(87, 127, 193);
 }
 .backbutton {
 	background-color: #e6eaf2;
@@ -9,7 +9,7 @@
 	border-radius: 5px;
 	max-width: 45px;
 	height: 24px;
-	margin: 3px 0px 0px 3px;
+	margin: 3px 3px 3px 3px;
 }
 
 .backbutton:hover {
@@ -37,6 +37,7 @@
   height: 100%;
   width: 260px;
   display: flex;
+	align-items: center;
   flex-direction: column;
   border: 2px solid black;
   border-radius: 10px;
@@ -44,28 +45,31 @@
 .form {
   padding: 15px;
   display: flex;
-  justify-content: space-around;
+	flex-direction: column;
+	height: 50px;
 }
 .title {
-	padding-left: 20px;
   padding-top: 10px;
-  padding-left: 20px;
   font-size: 20px;
 }
 .shelter {
+	width: 250px;
   margin: 5px;
 	padding: 2px;
 	border-radius: 8px;
   display: flex;
   flex-direction: column;
 	text-decoration: none;
-  background-color: rgb(173, 216, 250);
+  background-color: rgb(87, 127, 193);
+}
+.shelter:hover {
+	background-color: rgb(84, 118, 173);
 }
 .shelter span {
 	padding-left: 10px;
 	font-size: 15px;
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 a, div {
 	text-decoration: none;

@@ -15,19 +15,20 @@ $(document).ready(function() {
     $(this).autocomplete("search", "");
   });
 
+  $('#loc').click(function() {
+    userInput = 'Use My Location';
+    if(window.location.href !== "find_a_shelter_AFTER.html") {
+      window.location.href = "find_a_shelter_AFTER.html";
+    }
+  })
   $("#submit").click(function() {
-    console.log(src);
     userInput = $("#autocomplete").val();
     if(userInput !== '') {
-      if(userInput === "Use Current Location") {
-        userInput = "2332 Campus Drive"
-      } else {
-        if($.inArray(userInput, src) === -1) {
-          src.push(userInput);
-        }
+      if($.inArray(userInput, src) === -1) {
+        src.push(userInput);
       }
       if(window.location.href !== "find_a_shelter_AFTER.html") {
-        window.location.href = "find_a_shelter_AFTER.html";        
+        window.location.href = "find_a_shelter_AFTER.html";
       }
     } else {
       $('.search-box .shelter').remove();
