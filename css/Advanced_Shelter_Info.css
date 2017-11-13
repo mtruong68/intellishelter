@@ -124,6 +124,7 @@ body {
 
 #directions_button:hover {
 	cursor: pointer;
+	background-color: #577fc1;
 }
 
 #notifications_title {
@@ -149,8 +150,9 @@ body {
 	border-radius: 10px;
 }
 
-#notifications_button: hover {
+#notifications_button:hover {
 	cursor: pointer;
+	background-color: #577fc1;
 }
 
 #note1 {
