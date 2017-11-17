@@ -3,7 +3,7 @@ var emailinput = document.getElementById("text-input-e");
 var pwinput = document.getElementById("text-input-p");
 
 function submitlogin() {
-	if ((emailinput.value == "shelter") && (pwinput.value == "password")){
+	if ((emailinput.value == "shelter@shelter.gov") && (pwinput.value == "password")){
 		window.location.href = "manager_overview.html";
 	} else {
 		incorrect_pw.style.visibility = "visible";
