@@ -9,3 +9,19 @@ function submitlogin() {
 		incorrect_pw.style.visibility = "visible";
 	}
 }
+
+pwinput
+.addEventListener("keyup", function(event) {
+	event.preventDefault();
+	if (event.keyCode === 13) {
+		document.getElementById("button").click();
+	}
+});
+
+emailinput
+.addEventListener("keyup", function(event) {
+	event.preventDefault();
+	if (event.keyCode === 13) {
+		document.getElementById("button").click();
+	}
+})

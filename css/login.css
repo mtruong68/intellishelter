@@ -28,6 +28,9 @@
 	font-weight: bold;
 	max-width: 235px;
 	margin: auto;
+	border: 2px solid #76a3ed;
+	border-radius: 8px;
+	padding: 50px 20px 50px 20px;
 }
 
 #text-input-e{
@@ -68,4 +71,5 @@
 
 .submitlogin:hover {
 	cursor: pointer;
+	background-color: #5476ad;
 }
