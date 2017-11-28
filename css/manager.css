@@ -74,6 +74,13 @@ textarea{
 #submit_button {
 	height: 30px;
 	width: 255px;
+	border-radius: 10px 10px 10px 10px;
+	margin-top: 5px;
+}
+
+#submit_overview{
+	height: 30px;
+	width: 255px;
 	border-radius: 0px 0px 10px 10px;
 }
 

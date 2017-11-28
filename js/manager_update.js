@@ -37,7 +37,7 @@ $(document).ready(function(){
 				clearInterval(timer);
 			}
 			$("#submit_button").css("background-color", "#577fc1");
-			$("#submit_button").val("Update");
+			$("#submit_button").val("Update All");
 			doOnce = true;
 		}, 3000);
 	});
