@@ -14,8 +14,9 @@ $(document).ready(function(){
 		draggable: false,
     	resizable: false,
     	width: 300,
+    	height: 115,
     	position: ["center center", "center center", "#notifications_button"],
-    	buttons: { "I Understand": function() {
+    	buttons: { "Okay": function() {
             $(this).dialog("close");
         	}
     	}
