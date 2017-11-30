@@ -10,15 +10,6 @@ $(document).ready(function() {
 
   $("#autocomplete").val(userInput);
 
-  $("#autocomplete").focus(function() {
-    $( "#autocomplete" ).autocomplete({
-      minLength: 0,
-      source: src,
-     });
-  }).focus(function() {
-    $(this).autocomplete("search", "");
-  });
-
   $('#loc').click(function() {
     userInput = 'Use My Location';
     if(window.location.href !== "find_a_shelter_AFTER.html") {
