@@ -10,6 +10,8 @@ body {
 	height: 530px;
 	width: 300px;
 	margin: 105px 23px;
+	overflow: auto;
+	max-height: 800px;
 }
 
 #head-bar {
@@ -113,6 +115,7 @@ body {
 	text-align: left;
 	padding-left: 15px;
 	padding-bottom: 0px;
+	white-space: pre-wrap;
 }
 
 #directions_button {
@@ -154,6 +157,7 @@ body {
 	font-weight: bold;
 	font-size: 16px;
 	border-radius: 10px;
+	margin-bottom: 5px;
 }
 
 #notifications_button:hover {
