@@ -10,7 +10,7 @@ body {
 	height: 530px;
 	width: 300px;
 	margin: 105px 23px;
-	overflow: auto;
+	overflow: hidden;
 	max-height: 800px;
 }
 

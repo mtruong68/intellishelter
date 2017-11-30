@@ -38,6 +38,8 @@ $(document).ready(function(){
   		}
 	});
 
+	//Disables browswer scrolling when cursos is in the screen.  
+	//Changing the constant that is multiplying the delta (l46) changes scroll speed within the element.
 	$( '#screen' ).on( 'mousewheel DOMMouseScroll', function ( e ) {
     var e0 = e.originalEvent,
         delta = e0.wheelDelta || -e0.detail;
