@@ -25,14 +25,14 @@ $(document).ready(function(){
 	$( "#notifications_button" ).click(function() {
 		if(push_count % 2 == 0){
 			document.getElementById("nots_dialog").innerHTML = "Do you want to receive push notifications from this shelter?";
-			document.getElementById("notifications_button").innerHTML = "Disable Push Notificaions";
+			document.getElementById("notifications_button").innerHTML = "Disable Push Notifications";
   			$( "#nots_dialog" ).dialog( "open" );
   			push_count++;
   		}
 
   		else {
   			document.getElementById("nots_dialog").innerHTML = "Do you want to stop receiving push notifications from this shelter?";
-  			document.getElementById("notifications_button").innerHTML = "Receive Push Notificaions";
+  			document.getElementById("notifications_button").innerHTML = "Receive Push Notifications";
   			$( "#nots_dialog" ).dialog( "open" );
   			push_count++;
   		}
