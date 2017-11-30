@@ -148,6 +148,54 @@ body {
 	margin: 0px 5px 5px 5px;
 }
 
+#note1_container{
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px solid gray;
+}
+
+#note1_container:hover {
+	cursor: pointer;
+	background-color: lightgrey;
+}
+
+#note1_preview {
+	padding-top: 3px;
+	padding-left: 30px;
+}
+
+#note2_container{
+	display: flex;
+	flex-direction: row;
+	border-bottom: 1px solid gray;
+}
+
+#note2_container:hover {
+	cursor: pointer;
+	background-color: lightgrey;
+}
+
+
+#note2_preview {
+	padding-top: 3px;
+	padding-left: 30px;
+}
+
+#note3_container{
+	display: flex;
+	flex-direction: row;
+}
+
+#note3_container:hover {
+	cursor: pointer;
+	background-color: lightgrey;
+}
+
+#note3_preview {
+	padding-top: 3px;
+	padding-left: 30px;
+}
+
 #notifications_button {
 	width: 290px;
 	height: 50px;
@@ -163,14 +211,6 @@ body {
 #notifications_button:hover {
 	cursor: pointer;
 	background-color: #577fc1;
-}
-
-#note1 {
-	border-bottom: 1px solid gray;
-}
-
-#note2 {
-	border-bottom: 1px solid gray;
 }
 
 #nots_dialog {
